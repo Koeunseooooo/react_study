@@ -1,7 +1,8 @@
 import React,{useState} from 'react';
 
-const Counter = () => {
+const Counter = (props) => {
 
+    console.log(props);
     //0에서 출발
     //1씩 증가하고 1씩 감소하는
     //count 상태
