@@ -3,7 +3,6 @@ import OddEvenResult from "./OddEvenResult";
 
 const Counter = ({initialValue}) => {
 
-    console.log(initialValue); //undefined
     //0에서 출발
     //1씩 증가하고 1씩 감소하는
     //count 상태
@@ -24,7 +23,6 @@ const Counter = ({initialValue}) => {
             <button onClick={onIncrease}>+</button>
             <button onClick={onDecrease}>-</button>
             <OddEvenResult count={count}/>
-
         </div>    
     )
 }

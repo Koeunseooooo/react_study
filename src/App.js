@@ -14,12 +14,12 @@ function App() {
   }
   return (
     //태그를 쓰고 싶지 않다면
-    <React.Fragment>
-    {/* <div className="App"> */}
+    // <React.Fragment>
+    <div>
       <MyHeader/>
       <Counter {...counterProps}/>
-    {/* </div> */}
-    </React.Fragment>
+    </div>
+    // </React.Fragment>
   );
 }
 
