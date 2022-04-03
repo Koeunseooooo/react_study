@@ -10,7 +10,7 @@ function App() {
     c:3,
     d:4,
     e:5,
-    initialValue:5,
+    // initialValue:5,
   }
   return (
     //태그를 쓰고 싶지 않다면
