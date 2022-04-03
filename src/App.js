@@ -1,18 +1,20 @@
  import './App.css';
+ import React from 'react';
  import MyHeader from './MyHeader';
+ import Counter from './Counter';
 
 function App() {
 
   let name ='고은서';
 
   return (
-    
-    <div className="App">
+    //태그를 쓰고 싶지 않다면
+    <React.Fragment>
+    {/* <div className="App"> */}
       <MyHeader/>
-      <header className="App-header">
-        <h2>안녕 리액트 {name} </h2>
-      </header>
-    </div>
+      <Counter/>
+    {/* </div> */}
+    </React.Fragment>
   );
 }
 
